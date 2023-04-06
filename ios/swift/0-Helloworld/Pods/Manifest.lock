@@ -1,0 +1,30 @@
+PODS:
+  - linphone-sdk (5.0.71):
+    - linphone-sdk/all-frameworks (= 5.0.71)
+    - linphone-sdk/app-extension (= 5.0.71)
+    - linphone-sdk/app-extension-swift (= 5.0.71)
+    - linphone-sdk/basic-frameworks (= 5.0.71)
+    - linphone-sdk/swift (= 5.0.71)
+  - linphone-sdk/all-frameworks (5.0.71)
+  - linphone-sdk/app-extension (5.0.71)
+  - linphone-sdk/app-extension-swift (5.0.71):
+    - linphone-sdk/app-extension
+  - linphone-sdk/basic-frameworks (5.0.71):
+    - linphone-sdk/app-extension
+  - linphone-sdk/swift (5.0.71):
+    - linphone-sdk/app-extension-swift
+    - linphone-sdk/basic-frameworks
+
+DEPENDENCIES:
+  - linphone-sdk (~> 5.0.48)
+
+SPEC REPOS:
+  https://gitlab.linphone.org/BC/public/podspec.git:
+    - linphone-sdk
+
+SPEC CHECKSUMS:
+  linphone-sdk: 03dc37f2db70e06d919f7f65a738f45681f18eea
+
+PODFILE CHECKSUM: 3af400508eb5fbff63bdd75047410217e4a0381d
+
+COCOAPODS: 1.12.0
